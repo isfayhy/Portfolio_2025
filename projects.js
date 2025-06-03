@@ -1,17 +1,6 @@
 const projects = [
   // Exemple de projet
-  {
-    image: 'assets/JOdashboard1.png',
-    title: 'Africa Participation in the Olympics',
-    description: "A dashboard to visualize the participation of African countries in the Olympics, my first dashboard - Made with Tableau.",
-    link: '',
-    modalType: 'slideshow',
-    modalSrc: [
-      'assets/JOdashboard1.png',
-      'assets/JOdashboard2.png',
-      'assets/JOdashboard3.png',
-    ]
-  },
+
   {
     image: 'assets/player.jpg',
     title: 'Player Detection using AI',
@@ -30,7 +19,20 @@ const projects = [
       'assets/dashboardvelib1.png',
       'assets/dashboardvelib2.png',
     ]
-  }
+  },
+  
+    {
+    image: 'assets/JOdashboard1.png',
+    title: 'Africa Participation in the Olympics',
+    description: "A dashboard to visualize the participation of African countries in the Olympics, my first dashboard - Made with Tableau.",
+    link: '',
+    modalType: 'slideshow',
+    modalSrc: [
+      'assets/JOdashboard1.png',
+      'assets/JOdashboard2.png',
+      'assets/JOdashboard3.png',
+    ]
+  },
 
   
   // Ajoute d'autres projets ici
