@@ -22,7 +22,7 @@ const projects = [
   },
 
     {
-    image: 'assets/dashboardvelib1.png',
+    image: 'assets/JOdashboard1.png',
     title: 'Africa Participation in the Olympics',
     description: "A dashboard to visualize the participation of African countries in the Olympics, my first dashboard - Made with Tableau.",
     link: '',
@@ -121,3 +121,4 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModal();
 
 }); 
+
