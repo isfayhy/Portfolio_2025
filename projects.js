@@ -20,17 +20,20 @@ const projects = [
       'assets/dashboardvelib2.png',
     ]
   },
-  
+
     {
-    image: 'assets/JOdashboard1.png',
+    image: 'assets/dashboardvelib1.png',
     title: 'Africa Participation in the Olympics',
     description: "A dashboard to visualize the participation of African countries in the Olympics, my first dashboard - Made with Tableau.",
     link: '',
-    modalType: 'iframe',
-    modalSrc: '<div class="flourish-embed" data-src="story/3147731"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/story/3147731/thumbnail" width="100%" alt="visualization" /></noscript></div>',
+    modalType: 'slideshow',
+    modalSrc: [
+      'assets/JOdashboard1.png',
+      'assets/JOdashboard2.png',
+      'assets/JOdashboard3.png',
+    ]
   },
-
-  
+    
   // Ajoute d'autres projets ici
 ];
 
@@ -116,4 +119,5 @@ if (modal) {
 
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModal();
+
 }); 
